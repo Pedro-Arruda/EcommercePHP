@@ -1,0 +1,90 @@
+* {
+  padding: 0;
+  margin: 0;
+  text-decoration: none;
+}
+
+body {
+  background-color: #262626;
+  color: #d8d8d8;
+}
+
+a {
+  text-decoration: none;
+  color: #d8d8d8;
+}
+
+h1 {
+  margin: 16px 0;
+}
+
+.container {
+  max-width: 1300px;
+  margin: 0 auto;
+  padding: 2rem;
+}
+
+.nav-bar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.container-promocoes .title {
+  display: flex;
+  align-items: center;
+  gap: 1rem;
+  margin: 1.5rem 0;
+}
+
+.produtos {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 2rem;
+  justify-content: center;
+}
+
+.card-produto {
+  display: flex;
+  align-items: center;
+  padding: 0.5rem 1rem;
+  flex-direction: column;
+  max-width: 260px;
+  gap: 0.5rem;
+}
+
+.card-produto:hover {
+  scale: 1.1;
+  transition: 0.5s;
+  cursor: pointer;
+}
+
+.card-produto img {
+  width: 200px;
+  border-radius: 0.25rem;
+}
+
+.card-produto span {
+  color: #7afa66;
+}
+
+.card-produto p {
+  font-size: 1.5rem;
+  text-align: center;
+}
+
+.sacola p {
+  margin-left: 100%;
+}
+
+.qtd_produto {
+  margin-left: 20%;
+}
+
+.footer {
+  margin-top: 4rem;
+  padding: 1.5rem;
+  font-size: 1.5rem;
+  text-align: center;
+  background-color: #1b1b1b;
+}

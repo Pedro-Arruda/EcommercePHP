@@ -77,24 +77,14 @@ class Carrinho extends Produto {
   }
 }
 
-if (isset($_GET['imagem'])) {
-  $imagem = $_GET['imagem'];
-}
-
-if (isset($_GET['valorAVista'])) {
-  $valorAVista = $_GET['valorAVista'];
-}
-
-if (isset($_GET['valorParcelado'])) {
-  $valorParcelado = $_GET['valorParcelado'];
-}
-
-if (isset($_GET['quantidade'])) {
-  $quantidade = $_GET['quantidade'];
-}
 
 if (isset($_GET['nome'])) {
   $nome = $_GET['nome'];
+  $quantidade = $_GET['quantidade'];
+  $valorParcelado = $_GET['valorParcelado'];
+  $valorAVista = $_GET['valorAVista'];
+  $imagem = $_GET['imagem'];
+
 
   if (isset($_GET['onClick'])) {
     $onClick = $_GET['onClick'];
